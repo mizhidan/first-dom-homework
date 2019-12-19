@@ -1,6 +1,5 @@
 var username = document.getElementById("username");
 var password = document.getElementById("password");
-document.getElementById("submit").addEventListener('click',checkUserInfo)
 
 function checkUserInfo() {
 

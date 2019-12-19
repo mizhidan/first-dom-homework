@@ -7,6 +7,7 @@
   </head>
 	<body>
 		<div class="main">
+		  <form  action="user" onsubmit="checkUserInfo()" target="iframe">
 			<h1>User Login</h1>
 			<div>
 				<input type="text" id = "username" name="username" />
@@ -17,7 +18,9 @@
 			<div>
 					<button id="submit" name="submit">submit</button>
 			</div>
-		</div>
+      </form>
+      <iframe id="iframe" name="iframe" style="display:none;"></iframe>
+    </div>
 		<script type="text/javascript" src="./static/js/index.js"></script>
 	</body>
 </html>
